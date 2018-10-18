@@ -2,11 +2,12 @@
 <SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
   <Name>Microsoft Server Manager</Name>
   <ID>Microsoft Server Manager #ALL</ID>
-  <Version>1</Version>
+  <Version>2</Version>
   <Author>
     <Name>Matt Hadley</Name>
   </Author>
   <Processes>
+    <ShellProcess/>
     <Process>
       <Filename>ServerManager.exe</Filename>
     </Process>
