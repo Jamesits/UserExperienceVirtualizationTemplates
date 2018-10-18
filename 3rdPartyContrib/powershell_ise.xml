@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>Windows PowerShell ISE</Name>
+  <ID>Microsoft-powershell-ise-v-6-10</ID>
+    <Version>1</Version>
+  <Author>
+    <Name>Steve Thomas</Name>
+    <Email>steveth@microsoft.com</Email>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>powershell_ise.exe</Filename>
+      <ProductVersion>
+        <Major Minimum="6" Maximum="10" />
+      </ProductVersion>
+      <FileVersion>
+        <Major Minimum="6" Maximum="10" />
+       </FileVersion>
+    </Process>
+  </Processes>
+  <Settings>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">Microsoft_Corporation</Path>
+      <FileMask>user.config</FileMask>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>

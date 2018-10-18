@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>Start Menu Roaming Windows 10 v1709</Name>
+  <ID>Start-Menu-Roaming-Windows10-v1709</ID>
+  <Version>2</Version>
+  <Author>
+    <Name>David Westbrook,Glenthorne High School</Name>
+    <Email>dwe@glenthorne.sutton.sch.uk</Email>
+  </Author>
+  <Processes>
+    <ShellProcess/> 
+  </Processes>
+  <Settings>
+    <Asynchronous>true</Asynchronous>
+    <PreventOverlappingSynchronization>false</PreventOverlappingSynchronization>
+    <Registry>
+      <Path Recursive="true">Software\Microsoft\Windows\CurrentVersion\CloudStore</Path>
+    </Registry>
+    <Registry>
+      <Path>Software\Microsoft\Windows\CurrentVersion\Explorer</Path>
+      <Name>SlowContextMenuEntries</Name>
+      <Name>EnableAutoTray</Name>
+    </Registry>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">Microsoft\Windows\Caches</Path>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">Microsoft\Windows\CloudStore</Path>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>LOCALAPPDATA</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">Microsoft\Windows\Explorer</Path>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>

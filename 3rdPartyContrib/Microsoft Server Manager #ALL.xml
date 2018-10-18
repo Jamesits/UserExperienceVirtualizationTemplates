@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>Microsoft Server Manager</Name>
+  <ID>Microsoft Server Manager #ALL</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>Matt Hadley</Name>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>ServerManager.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <Registry>
+      <Path Recursive="true">SOFTWARE\Microsoft\ServerManager</Path>
+    </Registry>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">Microsoft\Windows\ServerManager</Path>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>

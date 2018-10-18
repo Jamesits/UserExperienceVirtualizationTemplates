@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2012/SettingsLocationTemplate">
+  <Name>FileZilla FTP Client</Name>
+  <ID>FileZilla-filezilla-v-3-6</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>Andreas Erber</Name>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>filezilla.exe</Filename>
+      <ProductVersion>
+        <Major Minimum="3" Maximum="3" />
+        <Minor Minimum="6" Maximum="6" />
+      </ProductVersion>
+      <FileVersion>
+        <Major Minimum="3" Maximum="3" />
+        <Minor Minimum="6" Maximum="6" />
+      </FileVersion>
+    </Process>
+  </Processes>
+  <Settings>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>FileZilla</Path>
+      <FileMask>filezilla.xml</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>FileZilla</Path>
+      <FileMask>layout.xml</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>FileZilla</Path>
+      <FileMask>filters.xml</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>FileZilla</Path>
+      <FileMask>bookmarks.xml</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>FileZilla</Path>
+      <FileMask>queue.sqlite3</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>FileZilla</Path>
+      <FileMask>sitemanager.xml</FileMask>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>
