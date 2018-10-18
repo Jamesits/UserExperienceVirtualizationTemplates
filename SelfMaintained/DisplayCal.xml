@@ -2,14 +2,50 @@
 <SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
   <Name>DisplayCal</Name>
   <ID>DisplayCal</ID>
-  <Version>1</Version>
+  <Version>2</Version>
   <Author>
     <Name>James Swineson</Name>
     <Email>github@public.swineson.me</Email>
   </Author>
   <Processes>
     <Process>
-      <Filename>displaycal.exe</Filename>
+      <Filename>DisplayCAL.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>DisplayCAL-3DLUT-maker.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>DisplayCAL-apply-profiles.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>DisplayCAL-apply-profiles-launcher.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>DisplayCAL-curve-viewer.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>DisplayCAL-eeColor-to-madVR-converter.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>DisplayCAL-eeColor-to-madVR-converter.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>DisplayCAL-profile-info.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>DisplayCAL-scripting-client.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>DisplayCAL-synthprofile.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>DisplayCAL-testchart-editor.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>DisplayCAL-VRML-to-X3D-converter.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>DisplayCAL-VRML-to-X3D-converter-console.exe</Filename>
     </Process>
   </Processes>
   <Settings>
