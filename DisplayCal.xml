@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>DisplayCal</Name>
+  <ID>DisplayCal</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>James Swineson</Name>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>displaycal.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <Asynchronous>true</Asynchronous>
+    <PreventOverlappingSynchronization>false</PreventOverlappingSynchronization>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">DisplayCAL</Path>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>
