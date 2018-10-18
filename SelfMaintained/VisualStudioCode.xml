@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>Visual Studio Code</Name>
+  <ID>VisualStudioCode</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>James Swineson</Name>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>vscode.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <Asynchronous>true</Asynchronous>
+    <PreventOverlappingSynchronization>true</PreventOverlappingSynchronization>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">Code\User</Path>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>
