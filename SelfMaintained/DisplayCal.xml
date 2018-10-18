@@ -13,7 +13,7 @@
     </Process>
   </Processes>
   <Settings>
-    <Asynchronous>true</Asynchronous>
+    <Asynchronous>false</Asynchronous>
     <PreventOverlappingSynchronization>false</PreventOverlappingSynchronization>
     <File>
       <Root>

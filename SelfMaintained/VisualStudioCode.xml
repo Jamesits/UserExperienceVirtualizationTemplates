@@ -13,8 +13,8 @@
     </Process>
   </Processes>
   <Settings>
-    <Asynchronous>true</Asynchronous>
-    <PreventOverlappingSynchronization>true</PreventOverlappingSynchronization>
+    <Asynchronous>false</Asynchronous>
+    <PreventOverlappingSynchronization>false</PreventOverlappingSynchronization>
     <File>
       <Root>
         <EnvironmentVariable>APPDATA</EnvironmentVariable>
