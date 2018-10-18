@@ -136,7 +136,7 @@ the UE-V product documentation.  http://go.microsoft.com/fwlink/?LinkId=260889
   <Application>
     <Name>Microsoft Word 2016 (64-bit)</Name>
     <ID>Word</ID>
-    <Version>2</Version>
+    <Version>1</Version>
     <Processes>
       <Process>
         <Filename>WINWORD.EXE</Filename>
@@ -297,7 +297,7 @@ the UE-V product documentation.  http://go.microsoft.com/fwlink/?LinkId=260889
           <EnvironmentVariable>APPDATA</EnvironmentVariable>
         </Root>
         <Path>Microsoft\Templates</Path>
-        <FileMask>Normal.dotm</FileMask>
+        <FileMask>~$Normal.dotm</FileMask>
       </File>
       <File>
         <Root>
@@ -795,7 +795,7 @@ the UE-V product documentation.  http://go.microsoft.com/fwlink/?LinkId=260889
   <Application>
     <Name>Microsoft Outlook 2016 (64-bit)</Name>
     <ID>Outlook</ID>
-    <Version>2</Version>
+    <Version>1</Version>
     <Processes>
       <Process>
         <Filename>OUTLOOK.EXE</Filename>
