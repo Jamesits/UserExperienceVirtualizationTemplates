@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>MacType</Name>
+  <ID>MacType</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>James Swineson</Name>
+    <Email>github@public.swineson.me</Email>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>MacLoader.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>MacLoader64.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>MacTray.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>MacTuner.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>MacWiz.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>mt64agent.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <Asynchronous>false</Asynchronous>
+    <PreventOverlappingSynchronization>false</PreventOverlappingSynchronization>
+    <File>
+      <Root>
+        <EnvironmentVariable>PROGRAMFILES</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">MacType\ini</Path>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>
