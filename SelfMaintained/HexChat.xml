@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>HexChat</Name>
+  <ID>HexChat</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>James Swineson</Name>
+    <Email>github@public.swineson.me</Email>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>hexchat.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>hexchat-text.exe</Filename>
+    </Process>
+    <Process>
+      <Filename>thememan.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <Asynchronous>false</Asynchronous>
+    <PreventOverlappingSynchronization>true</PreventOverlappingSynchronization>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">HexChat</Path>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>
